@@ -14,4 +14,9 @@ del list3 [:2]#modifies og list
 
 #////////////////////////finding 
 print(34 in list)
-print(99 not in list)
+print(99 not in list)#these are opposites.............obviously >:)
+
+matrix = [list, list2, list3]
+print(matrix [1:2])# should b list2 element 3 (0-9)
+age = matrix[0:3]
+print(age)
