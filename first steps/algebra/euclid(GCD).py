@@ -21,4 +21,4 @@ while r >= 1:
 else:
     print("")
 
-print("GCD: ", str(b))
+print("GCD: ", str(b)) 
