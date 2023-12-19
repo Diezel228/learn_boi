@@ -1,0 +1,42 @@
+def myFunction():
+    print("yeahuhuhuhuhuuhuhu!!!!!")
+
+myFunction()   #calling function defined at top.
+
+#playing with stings BABIIIIII with the print function whilst passing keyword arguments!!
+print("hello", "whats up?",end="^ \n", sep="*")
+print("what it do? ")
+
+on = True
+while on == True:
+    for i in range(3, 10):
+        if i <= int(8):
+            print(i)
+            i == 5
+            continue #keyword that skips 2 :::: break keyword takes you out of the loop
+        else:
+            on = False
+print("\n")
+
+countries = ["US", "UK", "Pennsylvania"] #arrays
+print(len(countries))
+del countries [2]
+print(countries)
+print(countries[-1])
+
+#
+#
+#functions act on their own while methods act opon functions
+countries.append("uganda") #the append method
+countries.insert(1,"space")#insert between indecies
+print(countries)
+#swithcing places....
+countries[0], countries[1], countries[1], countries[0]
+###basically switching index 0&1 instead of creating temp scalar.
+
+age = [24,8,13,66,23]
+age.sort()#defaults to accending order||modifies OG array
+print(age)
+age.reverse()
+print(age)
+
