@@ -1,5 +1,5 @@
 def pythagoreas (): 
-    return int(print("Enter height")) = a
-    return int(print("Enter height")) = b
-    a+b=c
+    return a = int(print("Enter height:"))
+    return b = int(print("Enter width:"))
+    c = a+b
     return print(c)
