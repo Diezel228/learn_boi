@@ -1,7 +1,7 @@
-def myFunction():
-    print("yeahuhuhuhuhuuhuhu!!!!!")
+def myFunction(n = 10):#default multicand/factor
+    retrun int(input("enter number:"))*n #the return keyword is similar to the print() function
 
-myFunction()   #calling function defined at top.
+myFunction()   #calling function defined at top. myF(45) changes n variable assigned by defiing function.
 
 #playing with stings BABIIIIII with the print function whilst passing keyword arguments!!
 print("hello", "whats up?",end="^ \n", sep="*")
