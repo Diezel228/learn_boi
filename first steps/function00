@@ -1,5 +1,5 @@
 def myFunction(n = 10):#default multicand/factor
-    retrun int(input("enter number:"))*n #the return keyword is similar to the print() function
+    return int(input("enter number: "))*n #the return keyword is similar to the print() function
 
 myFunction()   #calling function defined at top. myF(45) changes n variable assigned by defiing function.
 
