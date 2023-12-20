@@ -25,6 +25,6 @@ print(age)
 #3D array: also called que see que.py
 #///////////////////////////////////
 
-example = ("Hey!", "whats", "up.", sep = " ")
+example = ("Hey! ", "whats", " up.")
 #tuples are immutable meaning they cannot change
 print(example)
