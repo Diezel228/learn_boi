@@ -8,7 +8,7 @@ def pythagoreas(a, b, c=0):
     area = a*b/2
     perimeter = a+b+c
     h = a*b/c
-    list01 = [c,arcsinA,arcsinB,area,perimeter,h sep=", "]
+    list01 = [c,arcsinA,arcsinB,area,perimeter,h]
     return list01
 
 triangle = pythagoreas(200,36)
