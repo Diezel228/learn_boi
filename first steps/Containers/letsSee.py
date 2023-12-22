@@ -27,4 +27,5 @@ print(age)
 
 example = ("Hey! ", "whats", " up.")
 #tuples are immutable meaning they cannot change
-print(example)
+print(example)# methods and keywords that work with other data types do not work in tuples
+#example: example.append("!!!!!!!!!!!!!!!") would throw an error.
